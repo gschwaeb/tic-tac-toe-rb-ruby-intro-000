@@ -100,3 +100,14 @@ if turn_count(board) % 2 == 0
 else return "O"
   end
 end
+
+def play(board)
+until over?(board)
+  turn(board)
+end
+if winner(board)
+  puts "Congratulations "winner(board)"!"
+elsif draw?(board)
+  puts "Cat's Game!"
+end
+end
