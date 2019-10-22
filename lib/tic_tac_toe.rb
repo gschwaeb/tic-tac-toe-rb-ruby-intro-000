@@ -102,7 +102,7 @@ else return "O"
 end
 
 def play(board)
-until over?(board) == true
+until over?(board)
   turn(board)
 end
 end
