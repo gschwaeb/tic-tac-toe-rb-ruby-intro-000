@@ -106,7 +106,7 @@ until over?(board)
   turn(board)
 end
 if won?(board)
-  if winner?(board) == "X"
+  if winner(board) == "X"
     puts "Congratulations X!"
   else
     puts "Congratlations O!"
