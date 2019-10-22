@@ -109,7 +109,7 @@ if won?(board)
   if winner(board) == "X"
     puts "Congratulations X!"
   else
-    puts "Congratlations O!"
+    puts "Congratulations O!"
   end
 else
   puts "Cat's Game!"
