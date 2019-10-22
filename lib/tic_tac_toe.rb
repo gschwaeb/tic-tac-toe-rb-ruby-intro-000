@@ -102,13 +102,15 @@ else return "O"
 end
 
 def play(board)
-until over?(board)
-  turn(board)
+  input=gets
 end
-if winner(board)
-  puts "Congratulations winner(board)!"
-elsif draw?(board)
-  puts "Cat's Game!"
-end
-end
-end
+#until over?(board)
+#  turn(board)
+#end
+#if winner(board)
+  #puts "Congratulations winner(board)!"
+#elsif draw?(board)
+#  puts "Cat's Game!"
+#end
+#end
+#
