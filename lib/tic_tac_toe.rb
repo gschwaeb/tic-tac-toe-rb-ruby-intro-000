@@ -111,7 +111,7 @@ if won?(board)
   else
     puts "Congratlations O!"
   end
-else 
+else
   puts "Cat's Game!"
 end
 end
